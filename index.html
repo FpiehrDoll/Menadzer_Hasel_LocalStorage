@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="Author" content="Maciej grembski 3gg">
+  <title>Menadżer Haseł Local Storage</title>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div id="formDiv">
+        <form id="passmng">
+            <h1>menadżer haseł</h1>
+            <label for="przykład@mail.com" >email</label>
+            <input type="text" id="email" placeholder="email" required autofocus><br>
+            <label for="hasło" >Hasło</label>
+            <input type="password" id="hasło" placeholder="hasło" required><br>
+            <label for="login" >Login</label>
+            <input type="text" id="login" placeholder="login" required><br>
+            <button type="submit">Zapisz</button>
+        </form>
+        <br>
+        <label for="otrzymajdane" >Podaj login aby otrzymać dane</label>
+        <input type="text" id="otrzymajdane" placeholder="otrzymaj dane" required><br>
+        <button id="retrieveButton">Otrzymaj dane</button>
+        <br>
+        <div id="otrzymaj"></div>
+        <br>
+        <label for="usuńdane" >Podaj login aby usunąć dane</label>
+        <input type="text" id="removeKey" placeholder="removeKey" required><br>
+        <button id="removeButton">Usuń dane</button>
+        <br>
+        <button id="clearButton">Wyczyść wszystko</button>
+  </div>
+</body>
+</html>
